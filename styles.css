@@ -31,7 +31,7 @@
 .rodape{
     text-align: center;
 }
-.rodapes{
+.rodapes {
     font-family: "Nova Flat";
     display: Flex;
     flex-direction: row;
