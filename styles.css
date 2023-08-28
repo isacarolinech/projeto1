@@ -1,1 +1,46 @@
-
+.cabecalho{
+    font-family: "Nova Flat";
+    display: Flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 140px;
+    padding: 20px;
+    text-decoration: none;
+    background-color: rgb(252, 153, 255);
+    color: black;
+}
+.cabecalho2{
+    font-family: "Nova Flat";
+    display: Flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40px;
+    padding: 20px;
+    text-decoration: none;
+    background-color:  rgb(255, 95, 188);
+    font-size: 20px;
+    color: black;
+}
+.borda{
+    border-radius: 2000px;
+    font-size: 50px;
+    padding: 20px;
+}
+.rodape{
+    text-align: center;
+}
+.rodapes{
+    font-family: "Nova Flat";
+    display: Flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40px;
+    padding: 20px;
+    text-decoration: none;
+    background-color:  rgb(255, 95, 188);
+    font-size: 20px;
+    color: black;
+}
