@@ -1,6 +1,6 @@
 let currentImageIndex = 0;
-    const images = ['/imagens/imagem1.jpg', '/imagens/imagem2.jpg', '/imagens/imagem3.jpg', '/imagens/imagem4.jpg', '/imagens/imagem5.jpg',
-    '/imagens/imagem6.jpg','/imagens/imagem7.jpg','/imagens/imagem8.jpg', '/imagens/imagem9.jpg', '/imagens/imagem10.jpg'];
+    const images = ['imagens/imagem1.jpg', 'imagens/imagem2.jpg', 'imagens/imagem3.jpg', 'imagens/imagem4.jpg', 'imagens/imagem5.jpg',
+    'imagens/imagem6.jpg','imagens/imagem7.jpg','imagens/imagem8.jpg', 'imagens/imagem9.jpg', 'imagens/imagem10.jpg'];
 
     function openModal(imageSrc) {
         const modal = document.getElementById('myModal');
