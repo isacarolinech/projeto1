@@ -3,16 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel = "stylesheet" type = "text/css" href = "visitacolorado.css">
+    <title>Visita</title>
 </head>
 <body>
-    <html>
-  <head>
-  </head>
-    <body>
-      Aqui ficará o texto do relatório da visita técnica.<br>
+    <div class="tudo">
+        <h1>Visita Técnica</h1><br>
+        <h3>RELATÓRIO VISITA:</h3>
 
-      <h1>Aqui ficará a Galeria de Fotos</h1><br>
-    </body>
+   <div class="Relatorio">
+   <p>A visita técnica realizada no dia 09 de agosto no Ifro Campus Colorado.
+    A visita teve início às 10:00 com uma recepção por parte da equipe do IFRO Campus Colorado. Recebemos as informações iniciais sobre a programação da visita e logo em seguida, fomos almoçar.<br>
+    Depois do almoço tivemos uma palestra com o professor Glauber sobre fotografia, ele ensinou sobre sombra, posição, camera, luz e várias coisas. 
+    <p>Tomamos tereé e depois fomos conhecer o Campus Colorado com a equipe de alunos do terceirão, andamos pelo Campus, vimos as galinhas, vacas, as plantações, as moradias dos alunos e andamos pelas trilhas.</p> 
+    <p>Os alunos e o professores que estavam com a gente mostraram o Campus, explicaram o que eles fazem, contaram a históris do campus.</p>
+    <p>Tivemos o desafio de tirar foto do Campus e quem tirasse a melhor foto ia ganhar.</p> <br>A visita técnica ao IFRO Campus Colorado foi enriquecedora e proporcionou uma visão abrangente das atividades e recursos oferecidos pela instituição.
+    <p> Foi evidente o comprometimento da equipe do IFRO em fornecer uma educação de qualidade e oportunidades de desenvolvimento para seus alunos.</p>
+    Tiramos uma foto na frente do Campus e fomos embora 16:00, antes de irmos a minha turma agradeceu à equipe do IFRO Campus Colorado pela hospitalidade e pelo tempo dedicado a nos receber. Espero voltar novamente no Campus Colorado até o final do ano. </p>
+    </div>
+
+        <div class="gallery">
+            <img src="/imagens/imagem1.jpg" alt="Imagem 1" onclick="openModal('/imagens/imagem1.jpg')">
+            <img src="/imagens/imagem2.jpg" alt="Imagem 2" onclick="openModal('/imagens/imagem2.jpg')">
+            <img src="/imagens/imagem3.jpg" alt="Imagem 3" onclick="openModal('/imagens/imagem3.jpg')">
+            <img src="/imagens/imagem4.jpg" alt="Imagem 4" onclick="openModal('/imagens/imagem4.jpg')">
+            <img src="/imagens/imagem5.jpg" alt="Imagem 5" onclick="openModal('/imagens/imagem5.jpg')">
+            <img src="/imagens/imagem6.jpg" alt="Imagem 6" onclick="openModal('imagens/imagem6.jpg')">
+            <img src="/imagens/imagem7.jpg" alt="Imagem 7" onclick="openModal('/imagens/imagem7.jpg')">
+            <img src="/imagens/imagem8.jpg" alt="Imagem 8" onclick="openModal('imagens/imagem8.jpg')">
+            <img src="/imagens/imagem9.jpg" alt="Imagem 9" onclick="openModal('imagens/imagem9.jpg')">
+            <img src="/imagens/imagem10.jpg" alt="Imagem 10" onclick="openModal('/imagens/imagem10.jpg')">
+        </div>
+        
+        <div id="myModal" class="modal">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <span class="next" onclick="nextImage()">&#10095;</span>
+            <img class="modal-content" id="modalImage">
+        </div>
+        
+        
+    </div>
+    <div class="controls">
+        <button id="prev">Anterior</button>
+        <button id="next">Próxima</button>
+    </div>
+
+<script src="visitacolorado.js"></script>
+
 </body>
 </html>
