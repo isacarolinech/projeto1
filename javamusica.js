@@ -32,7 +32,7 @@ export default [
     {
       src: "./MUSICAMP3/Meddle About_0n0nXfyfrs0.mp3",
       name: "Meddle About - Chase Atlantic",
-      image: ".ImagensMusica/Meddle About - Chase Atlantic.webp"
+      image: "./ImagensMusica/Meddle About - Chase Atlantic.webp"
     },
     {
       src: "./MUSICAMP3/The Hills_G5XpJP7f_SE.mp3",
