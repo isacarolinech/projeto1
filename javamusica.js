@@ -45,7 +45,7 @@ export default [
       image: "./ImagensMusica/NEW MAGIC WAND - Tyler, The Creator.jpg"
     },
     {
-      src: "./Arctic Monkeys - Do I Wanna Know_ (Official Video)_bpOSxM0rNPM.mp3",
+      src: "./MUSICAMP3/Arctic Monkeys - Do I Wanna Know_ (Official Video)_bpOSxM0rNPM.mp3",
       name: "Do I Wanna Know - Arctic Monkeys",
       image: "./ImagensMusica/Do I Wanna Know - Arctic Monkeys.jpg"
     },
