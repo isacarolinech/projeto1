@@ -49,4 +49,9 @@ export default [
       name: "Do I Wanna Know - Arctic Monkeys",
       image: "./ImagensMusica/Do I Wanna Know - Arctic Monkeys.jpg"
     },
+    {
+      src: "./MUSICAMP3/Art Deco_QbLGjeR9bvI.mp3",
+      name: "Art Deco - Lana Del Rey",
+      image: "./ImagensMusica/Art Deco.jpg"
+    },
   ];
