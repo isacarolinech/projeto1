@@ -18,7 +18,8 @@ const backgroundImages = [
   "./ImagensMusica/Meddle About - Chase Atlantic.webp",
   "./ImagensMusica/The Hills - The Weeknd.jpg",
   "./ImagensMusica/NEW MAGIC WAND - Tyler, The Creator.jpg",
-  "./ImagensMusica/Do I Wanna Know - Arctic Monkeys.jpg"
+  "./ImagensMusica/Do I Wanna Know - Arctic Monkeys.jpg",
+  "./ImagensMusica/Art Deco.jpg"
 ];
 
 
@@ -100,7 +101,5 @@ const prevNextMusic = (type = "next") => {
 
 
 prevNextMusic("init");
-
-
 
 
